@@ -11,12 +11,16 @@ print(type(quantity))
 print(type(price))
 print(type(is_active))
 
-name = bool(name)
-quantity = str(quantity)
+man = "Jack"
+
+man = str(man.strip())
+quantity = bool(quantity)
 price = int(price)
 is_active = str(is_active)
 
-print(type(name))
+
+
+print(type(man))
 print(type(quantity))
 print(type(price))
 print(type(is_active))

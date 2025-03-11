@@ -17,3 +17,7 @@ discount = 1.10
 is_active = True
 on_sale = False
 online = True
+
+# COMPLEX
+complex_number = 2j
+print(type(complex_number))
